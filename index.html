@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Biblioteca de addons para World of Warcraft 3.3.5a: busca por nombre, categoría o palabras clave.">
+  <title>WotLK Addons Hub — Biblioteca 3.3.5a</title>
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#" aria-label="Inicio">
+      <span class="brand-mark">W</span>
+      <span><strong>WotLK Addons Hub</strong><small>Biblioteca para WoW 3.3.5a</small></span>
+    </a>
+    <nav><a href="#catalogo">Catálogo</a><a href="#categorias">Categorías</a><a href="#instalar">Cómo instalar</a></nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-content">
+        <p class="eyebrow">TU CENTRO DE ADDONS</p>
+        <h1>Mejora tu experiencia<br><span>en Azeroth.</span></h1>
+        <p class="hero-copy">Encuentra herramientas para personalizar la interfaz, organizar tu inventario y mejorar tu experiencia de juego.</p>
+        <form id="search-form" class="search" role="search">
+          <span aria-hidden="true">⌕</span>
+          <input id="search-input" type="search" placeholder="Busca por nombre, función o palabra clave…" autocomplete="off" aria-label="Buscar addons">
+          <button type="submit">Buscar</button>
+        </form>
+        <div class="quick-tags"><span>Prueba:</span><button data-tag="bolsas">bolsas</button><button data-tag="dps">DPS</button><button data-tag="mapas">mapas</button><button data-tag="raids">raids</button></div>
+      </div>
+      <div class="hero-orb" aria-hidden="true"><div class="orb-inner">W</div></div>
+    </section>
+
+    <div class="ad-banner ad-slot" aria-label="Espacio publicitario">
+      <span class="ad-label">PUBLICIDAD</span><strong>Tu anuncio podría aparecer aquí</strong><small>Espacio reservado · banner horizontal</small>
+    </div>
+
+    <section class="layout">
+      <aside class="sidebar">
+        <div class="panel" id="categorias">
+          <h2>Categorías</h2>
+          <button class="category active" data-category="Todas">✦ <span>Todas las categorías</span><b id="total-count">0</b></button>
+          <div id="category-list"></div>
+        </div>
+        <div class="panel">
+          <h2>Versión del cliente</h2>
+          <div class="version-pill">World of Warcraft <b>3.3.5a</b></div>
+          <p class="muted small">La compatibilidad debe confirmarse para cada archivo antes de instalarlo.</p>
+        </div>
+        <div class="panel">
+          <h2>¿Cómo buscar?</h2>
+          <p class="muted">Escribe el nombre del addon o palabras como “inventario”, “jefes”, “DPS” o “misiones”.</p>
+          <button class="text-button" id="clear-filters">Limpiar filtros ↗</button>
+        </div>
+        <div class="ad-square ad-slot" aria-label="Espacio publicitario lateral">
+          <span class="ad-label">PUBLICIDAD</span><div class="ad-symbol">✧</div><strong>Anúnciate aquí</strong><small>Espacio reservado · 300 × 250 aprox.</small>
+        </div>
+      </aside>
+
+      <section class="catalog" id="catalogo">
+        <div class="section-heading">
+          <div><p class="eyebrow">SELECCIÓN DE LA COMUNIDAD</p><h2>Addons destacados</h2></div>
+          <span class="section-icon">✦</span>
+        </div>
+        <div id="featured-grid" class="addon-grid featured-grid"></div>
+
+        <div class="section-heading all-heading">
+          <div><p class="eyebrow">EXPLORA LA BIBLIOTECA</p><h2>Todos los addons <span id="results-count" class="count-badge">0</span></h2></div>
+          <label class="sort-label">Ordenar
+            <select id="sort-select"><option value="name">Nombre A–Z</option><option value="category">Categoría</option></select>
+          </label>
+        </div>
+        <p id="results-summary" class="muted result-summary">Cargando catálogo…</p>
+        <div id="addon-grid" class="addon-grid"></div>
+        <div id="empty-state" class="empty-state" hidden>
+          <div class="empty-icon">⌕</div><h3>No encontramos addons</h3><p>Prueba con otro nombre o elimina algún filtro.</p><button class="primary-button" id="empty-reset">Ver todos los addons</button>
+        </div>
+      </section>
+    </section>
+
+    <section class="install-section" id="instalar">
+      <div class="install-icon">↓</div><div><p class="eyebrow">GUÍA RÁPIDA</p><h2>¿Cómo instalar un addon?</h2><p>Normalmente, extrae el ZIP y copia la carpeta del addon dentro de <code>World of Warcraft/Interface/AddOns</code>. Lee siempre las instrucciones incluidas y cierra el juego antes de copiar archivos.</p></div>
+    </section>
+  </main>
+
+  <footer>
+    <a class="brand footer-brand" href="#"><span class="brand-mark">W</span><span><strong>WotLK Addons Hub</strong><small>Una biblioteca hecha para la comunidad.</small></span></a>
+    <span class="footer-note">Proyecto independiente, no afiliado oficialmente con Blizzard Entertainment.</span>
+  </footer>
+  <script src="js/app.js"></script>
+</body>
+</html>
