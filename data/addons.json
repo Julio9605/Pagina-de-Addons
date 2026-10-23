@@ -1,0 +1,149 @@
+[
+  {
+    "id": "recount",
+    "nombre": "Recount",
+    "categoria": "Combate / Estadísticas",
+    "versionJuego": "3.3.5a",
+    "versionAddon": "Por verificar",
+    "descripcion": "Muestra estadísticas de combate como daño, sanación y otras métricas. Comprueba que la versión descargada sea compatible con 3.3.5a.",
+    "palabrasClave": [
+      "dps",
+      "daño",
+      "sanación",
+      "combate",
+      "estadísticas",
+      "recount"
+    ],
+    "imagen": "",
+    "descarga": "",
+    "destacado": true
+  },
+  {
+    "id": "bagnon",
+    "nombre": "Bagnon",
+    "categoria": "Bolsas / Inventario",
+    "versionJuego": "3.3.5a",
+    "versionAddon": "Por verificar",
+    "descripcion": "Unifica las bolsas en una sola ventana para consultar los objetos del personaje con más facilidad.",
+    "palabrasClave": [
+      "bolsas",
+      "inventario",
+      "objetos",
+      "banco",
+      "bagnon"
+    ],
+    "imagen": "",
+    "descarga": "",
+    "destacado": true
+  },
+  {
+    "id": "bartender4",
+    "nombre": "Bartender4",
+    "categoria": "Interfaz",
+    "versionJuego": "3.3.5a",
+    "versionAddon": "Por verificar",
+    "descripcion": "Permite personalizar la disposición y apariencia de las barras de acción. Verifica la versión antes de instalar.",
+    "palabrasClave": [
+      "barras",
+      "acción",
+      "interfaz",
+      "botones",
+      "bartender"
+    ],
+    "imagen": "",
+    "descarga": "",
+    "destacado": true
+  },
+  {
+    "id": "deadly-boss-mods",
+    "nombre": "Deadly Boss Mods",
+    "categoria": "Raids / Jefes",
+    "versionJuego": "3.3.5a",
+    "versionAddon": "Por verificar",
+    "descripcion": "Ayuda a seguir mecánicas de encuentros con avisos y temporizadores. Asegúrate de usar una edición compatible con el cliente.",
+    "palabrasClave": [
+      "bosses",
+      "jefes",
+      "raid",
+      "raids",
+      "mazmorras",
+      "dbm"
+    ],
+    "imagen": "",
+    "descarga": "",
+    "destacado": false
+  },
+  {
+    "id": "auctioneer",
+    "nombre": "Auctioneer",
+    "categoria": "Profesiones / Subastas",
+    "versionJuego": "3.3.5a",
+    "versionAddon": "Por verificar",
+    "descripcion": "Herramientas para consultar y organizar información de la casa de subastas, según las funciones de la versión instalada.",
+    "palabrasClave": [
+      "subastas",
+      "oro",
+      "economía",
+      "profesiones",
+      "auctioneer"
+    ],
+    "imagen": "",
+    "descarga": "",
+    "destacado": false
+  },
+  {
+    "id": "gatherer",
+    "nombre": "Gatherer",
+    "categoria": "Mapas / Recolección",
+    "versionJuego": "3.3.5a",
+    "versionAddon": "Por verificar",
+    "descripcion": "Registra ubicaciones de recursos recolectables, como hierbas y minerales, si la versión es compatible.",
+    "palabrasClave": [
+      "mapas",
+      "minería",
+      "herboristería",
+      "hierbas",
+      "minerales",
+      "gatherer"
+    ],
+    "imagen": "",
+    "descarga": "",
+    "destacado": false
+  },
+  {
+    "id": "atlasloot",
+    "nombre": "AtlasLoot",
+    "categoria": "Utilidades",
+    "versionJuego": "3.3.5a",
+    "versionAddon": "Por verificar",
+    "descripcion": "Permite consultar tablas de botín de distintas mazmorras, bandas y otras actividades del juego.",
+    "palabrasClave": [
+      "botín",
+      "loot",
+      "mazmorras",
+      "raids",
+      "objetos",
+      "atlasloot"
+    ],
+    "imagen": "",
+    "descarga": "",
+    "destacado": false
+  },
+  {
+    "id": "questhelper",
+    "nombre": "QuestHelper",
+    "categoria": "Misiones",
+    "versionJuego": "3.3.5a",
+    "versionAddon": "Por verificar",
+    "descripcion": "Ayuda a organizar objetivos de misiones y orientar el recorrido. Comprueba la compatibilidad de la edición.",
+    "palabrasClave": [
+      "misiones",
+      "quests",
+      "nivelar",
+      "questhelper"
+    ],
+    "imagen": "",
+    "descarga": "",
+    "destacado": false
+  }
+]
